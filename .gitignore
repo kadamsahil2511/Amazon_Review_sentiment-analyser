@@ -1,0 +1,35 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Datasets and Large Files
+*.csv
+*.zip
+*.tar.gz
+*.joblib
+*.pkl
+train.csv
+amazon-reviews.zip
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local deployment
+hf_space/app.py
+hf_space/Dockerfile
+hf_space/requirements.txt
