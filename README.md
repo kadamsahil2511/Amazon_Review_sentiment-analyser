@@ -33,12 +33,3 @@ To properly run this project locally or on a remote server, simply follow these 
 3. **Run All**:
    - Click **"Run All"** to execute the notebook from top to bottom.
    - The script will automatically sample 50,000 rows (to avoid memory crashes on most standard machines) to train the K-Means Sentiment Clusters and the Review-Sales Linear Regression model.
-
-## Screenshots of Outputs and Model Results
-*(Please add screenshots of your training accuracy plots, loss curves, and prediction evaluations here after running the notebook yourself.)*
-# Amazon_Review_sentiment-analyser
-# Amazon_Review_sentiment-analyser
-# Amazon_Review_sentiment-analyser
-# Amazon_Review_sentiment-analyser
-# Amazon_Review_sentiment-analyser
-# Amazon_Review_sentiment-analyser
