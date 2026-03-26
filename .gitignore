@@ -1,6 +1,7 @@
 # Environments
 .env
 .venv
+spark_etl/.venv/
 env/
 venv/
 ENV/
@@ -11,25 +12,27 @@ __pycache__/
 *$py.class
 *.so
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Datasets and Large Files
+# Data and models
 *.csv
+!spark_etl/fixtures/*.csv
 *.zip
 *.tar.gz
 *.joblib
 *.pkl
+*.parquet
 train.csv
 amazon-reviews.zip
+spark_etl/output/
+
+# Node
+node_modules/
+dist/
 
 # IDEs and OS
 .DS_Store
 .vscode/
 .idea/
-
-# Local deployment
-hf_space/app.py
-hf_space/Dockerfile
-hf_space/requirements.txt
